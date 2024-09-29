@@ -1,0 +1,115 @@
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    padding: 20px;
+    background-color: white;
+}
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.card img {
+    width: 300px; /* Фиксированная ширина для изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+.card-text {
+    padding: 20px;
+    flex: 1; /* Занимает оставшееся пространство */
+}        
+.content {
+    padding: 20px;
+    background-color: white;
+}
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.card img {
+    width: 700px; /* Фиксированная ширина для изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+.card-text {
+    padding: 20px;
+    flex: 1; /* Занимает оставшееся пространство */
+}
+.logo {
+    width: 100px; /* Размер герба */
+    display: block;
+    margin: 0 auto; /* Центрирование */
+}
+.text1{
+    font-size: 25px;
+}
+.container{
+max-width: 1600px;
+margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Добавляет перспективу для 3D эффекта */
+}
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s; /* Переход при перевороте карточки */
+    transform-style: preserve-3d; /* Сохраняем 3D стиль */
+}
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Скрываем заднюю сторону при перевороте */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+}
+.card-back {
+    transform: rotateY(180deg); /* Поворачиваем заднюю сторону */
+}
+.card:hover .card-inner {
+    transform: rotateY(180deg); /* Переворот карточки при наведении */
+}
+h2 {
+    margin: 0 0 10px;
+}

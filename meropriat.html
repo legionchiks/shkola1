@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Школа-интернат</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        .nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    
+        .content {
+            padding: 20px;
+            background-color: white;
+        }
+        .card {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .card img {
+            width: 300px; 
+            height: auto; 
+        }
+        .card-text {
+            padding: 20px;
+            flex: 1;
+        }        
+        .content {
+            padding: 20px;
+            background-color: white;
+        }
+        .card {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .card img {
+            width: 700px; 
+            height: auto; 
+        }
+        .card-text {
+            padding: 20px;
+            flex: 1; 
+        }
+        .logo {
+            width: 100px; 
+            display: block;
+            margin: 0 auto; 
+        }
+        .text1{
+            font-size: 25px;
+        }
+        .container{
+        max-width: 1600px;
+        margin: 0 auto;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info, .navigation {
+    flex: 1;
+    margin: 0 10px;
+}
+
+h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    margin: 5px 0;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+.event-card {
+            display: flex;
+            align-items: center; 
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .event-card img {
+            width: 300px; 
+            height: 200px; 
+        }
+        .event-card .event-text {
+            padding: 20px;
+            flex: 1; 
+            display: flex;
+            flex-direction: column; 
+        }
+        .event-card .event-date {
+            margin-top: auto; 
+            text-align: right; 
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+<section class="container">
+<div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Coat_of_arms_of_Mordovia.svg/1086px-Coat_of_arms_of_Mordovia.svg.png" alt="Герб Республики Мордовия" class="logo">
+    <h1>
+        ГКОУ РМ "Ширингушская школа-интернат"</h1>
+</div>
+
+<div class="nav">
+    <a href="index.html">О школе</a>
+    <a href="sostav.html">Учебный состав</a>
+    <a href="meropriat.html">Мероприятия</a>
+    <a href="kontakt.html">Контакты</a>
+</div>
+
+
+<div class="content" id="activities"></div>
+    <h2>Мероприятия</h2>
+    <div class="event-card">
+        <img src="img/2.jpg" alt="Изображение мероприятия">
+        <div class="event-text">
+            <h3>День знаний</h3>
+            <p>1 сентября -"День знаний"</p>
+            <div class="event-date">Дата: 2.09.2023</div>
+        </div>
+    </div>
+    <div class="event-card">
+        <img src="img/3.jpg" alt="Изображение мероприятия">
+        <div class="event-text">
+            <h3>Торжественное вручение аттестатов</h3>
+            <p>Вручение аттестатов выпускникам 9-х и 11-х классов</p>
+            <div class="event-date">Дата: 28.06.2023</div>
+        </div>
+    </div> 
+</div>
+<div class="event-card">
+    <img src="img/4.jpg" alt="Изображение мероприятия">
+    <div class="event-text">
+        <h3>1 июня - День защиты детей.</h3>
+        <p>Праздник посвященный дню защиты детей.</p>
+        <div class="event-date">Дата: 31.05.2023</div>
+    </div>
+</div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="contact-info">
+            <h3>Контактная информация</h3>
+            <p><strong>Телефон:</strong> +7 (123) 456-78-90</p>
+            <p><strong>Email:</strong> email@example.com</p>
+            <p><strong>Адрес:</strong> Улица, номер дома, город, индекс</p>
+        </div>
+        <div class="navigation">
+            <h3>Навигация по сайту</h3>
+            <ul>
+                <li><a href="#about">О школе</a></li>
+                <li><a href="#curriculum">Учебный план</a></li>
+                <li><a href="#extracurricular">Внеучебные мероприятия</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+</section>
+</body>
+</html>
